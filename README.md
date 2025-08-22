@@ -1,17 +1,17 @@
-<H3>ENTER YOUR NAME : NITHYA D</H3>
-<H3>ENTER YOUR REGISTER NO.: 212223240110</H3>
-<H3>EX. NO.1</H3>
+<H3>NAME : NITHYA D</H3>
+<H3>REGISTER NO.: 212223240110</H3>
+<H3>EX. NO.: 1</H3>
 <H3>DATE : 22/08/2025</H3>
-<H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
+<H2 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H2>
 
-## AIM :
+### AIM :
 To perform Data preprocessing in a data set downloaded from Kaggle
 
-## EQUIPMENTS REQUIRED :
+### EQUIPMENTS REQUIRED :
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-## RELATED THEORETICAL CONCEPT:
+### RELATED THEORETICAL CONCEPT :
 
 **Kaggle :**
 
@@ -27,7 +27,7 @@ Data Preprocessing is the process of making data suitable for use while training
 For achieving better results from the applied model in Machine Learning projects the format of the data has to be in a proper manner. Some specified Machine Learning model needs information in a specified format, for example, Random Forest algorithm does not support null values, therefore to execute random forest algorithm null values have to be managed from the original raw data set.
 Another aspect is that the data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithm are executed in one data set, and best out of them is chosen.
 
-## ALGORITHM:
+### ALGORITHM :
 STEP 1:Importing the libraries<BR>
 STEP 2:Importing the dataset<BR>
 STEP 3:Taking care of missing data<BR>
@@ -35,7 +35,7 @@ STEP 4:Encoding categorical data<BR>
 STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
-##  PROGRAM :
+###  PROGRAM :
 ```
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -61,20 +61,18 @@ print(len(x_test))
 ```
 
 
-## OUTPUT :
-**ORIGINAL DATAFRAME** :
+### OUTPUT :
+#### ORIGINAL DATAFRAME : 
 <img width="913" height="832" alt="image" src="https://github.com/user-attachments/assets/6f56e986-daeb-408e-bbb4-94aa3226b464" />
 
-**Missing values check** :
+#### Missing values check : 
 <img width="271" height="309" alt="image" src="https://github.com/user-attachments/assets/8e82a544-fbd3-4297-94f6-20629d7a7ed1" />
 
-**Scaled DataFrame (df1)** :
+#### Scaled DataFrame (df1) :
 <img width="832" height="552" alt="image" src="https://github.com/user-attachments/assets/bc623901-237b-4048-a0b6-fb83afc729b3" />
 
-**x (features before dropping/splitting)** :
+#### x (features before dropping/splitting) :
 <img width="493" height="338" alt="image" src="https://github.com/user-attachments/assets/fb200001-e8cb-4faf-8ea1-f7ef931880b5" />
 
-## RESULT:
+### RESULT :
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
-
-
